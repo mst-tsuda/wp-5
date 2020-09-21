@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   						<a href="<?php echo home_url(); ?>/services">Services</a></li>
   					<li class="hvr-bounce-to-bottom <?php if ( is_page('gallery') ) { echo 'active'; } ?>">
   						<a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
-  					<li class="hvr-bounce-to-bottom <?php if ( is_page('blog') ) { echo 'active'; } ?>">
+  					<li class="hvr-bounce-to-bottom <?php if ( is_archive() || is_single()  ) { echo 'active'; } ?>">
   						<a href="<?php echo home_url(); ?>/blog">Blog</a></li>
   					<li class="hvr-bounce-to-bottom <?php if ( is_page('contact') ) { echo 'active'; } ?>">
   						<a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
